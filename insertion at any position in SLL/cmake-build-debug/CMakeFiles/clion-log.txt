@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\ABHISHEK NANDAN\Desktop\untitled14"
+"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\ABHISHEK NANDAN\Desktop\insertion at any position in SLL"
 CMake Error at C:/Program Files/JetBrains/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/CMakeMinGWFindMake.cmake:12 (message):
   sh.exe was found in your PATH, here:
 

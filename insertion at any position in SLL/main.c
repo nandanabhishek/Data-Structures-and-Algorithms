@@ -27,6 +27,23 @@ void display(struct node *head)
 
 }
 
+//function to insert at the beginning of linked list
+struct node *insert_beg(struct node *head, int ele)
+{
+    struct node *new_node, *ptr;
+    new_node = (struct node *)malloc(sizeof(struct node));
+    ptr=head;
+
+    new_node = (struct node *)malloc(sizeof(struct node));
+
+    new_node -> data= ele;
+    new_node -> next= ptr;
+
+    head=new_node;
+    return head;
+
+}
+
 
 //function to insert element at the end of linked list
 struct node *insert_end(struct node *head, int ele)
@@ -61,6 +78,7 @@ struct node *insert_end(struct node *head, int ele)
 struct node *insert_pos(struct node *head, int element, int position)
 {
     struct node *newNode, *ptr;
+    int count=0;
     newNode = (struct node *)malloc(sizeof(struct node));
 
     ptr = head;
@@ -70,28 +88,26 @@ struct node *insert_pos(struct node *head, int element, int position)
         printf("Unable to allocate memory.");
         exit(0);
     }
-    else {
+    else if(position <= 0){
+        return insert_beg(head, element);
+    }
+    else{
         newNode->data = element; // Link data part
 
         // Traverse to the n-1 position
-
-        for (int i = 2; i <= position -1; i++) {
+        while (ptr->next != NULL) {
             ptr = ptr->next;
-            if (ptr == NULL)
+            count++;
+            if (count == position - 1) {
                 break;
-        }
-
-        if (ptr != NULL) {
-            /* Link address part of new node */
-            newNode->next = ptr->next;
-
-            /* Link address part of n-1 node */
-            ptr->next = newNode;
+            }
 
         }
+        newNode->next = ptr->next;
+        ptr->next = newNode;
+        return head;
     }
 
-    return head;
 
 }
 
@@ -123,7 +139,7 @@ int main()
 
     printf("\n\nEnter the element to be inserted in the above creatrd SLL: ");
     scanf("%d",&new_ele);
-    printf("\nEnter the position at which you want to insert %d in SLL:",new_ele);
+    printf("\nEnter the position(pos must be between first and last node) at which you want to insert %d in SLL:",new_ele);
     scanf("%d",&pos);
     sll=insert_pos(sll, new_ele, pos);
 
