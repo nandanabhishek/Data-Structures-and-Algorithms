@@ -74,7 +74,7 @@ struct node *insert_end(struct node *head, int ele)
 }
 
 
-//inserting element at the specified position (pos starts from 1)
+//inserting element at the specified position (at any index)
 struct node *insert_pos(struct node *head, int element, int position)
 {
     struct node *newNode, *ptr;
