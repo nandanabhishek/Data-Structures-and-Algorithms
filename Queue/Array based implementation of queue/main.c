@@ -8,8 +8,8 @@
 int queue[MAX];
 int front = -1, rear = -1;
 
-void insert(void);
-int delete_element(void);
+void EnQueue(void);
+int DeQueue(void);
 int peek(void);
 void display(void);
 
@@ -32,20 +32,22 @@ int main()
         switch(option)
         {
             case 1:
-                insert();
+                EnQueue();
+                display();
                 break;
             case 2:
-                val = delete_element();
+                val = DeQueue();
                 if (val != -1)
                     printf("\n The number deleted is : %d", val);
+                display();
                 break;
             case 3:
                 val = peek();
                 if (val != -1)
                     printf("\n The first value in queue is : %d", val);
+                display();
                 break;
             case 4:
-                printf("\n Elements of Queue are: ");
                 display();
                 break;
         }
@@ -57,7 +59,7 @@ int main()
 // function for "enqueue operation"
 // The process of inserting an element in the queue is called enqueue.
 // It insert the element at rear position in a Queue
-void insert()
+void EnQueue()
 {
     int num;
     printf("\n Enter the number to be inserted in the queue : ");
@@ -76,7 +78,7 @@ void insert()
 // function for "dequeue operation"
 // The process of deleting an element from the queue is called dequeue.
 // It delete and return the element from the front position in a Queue
-int delete_element()
+int DeQueue()
 {
     int val;
     if(front == -1 || front > rear)
@@ -95,6 +97,7 @@ int delete_element()
 
 }
 
+
 // function for "peek operation"
 // it return the element present at the front position in Queue.
 int peek()
@@ -112,10 +115,11 @@ int peek()
 }
 
 
-// function to print the elememt of the Queue
+// function to print the element of the Queue
 void display()
 {
     int i;
+    printf("\n Elements of Queue are: ");
     printf("\n");
     if(front == -1 || front > rear)
         printf("\n QUEUE IS EMPTY");
@@ -126,5 +130,3 @@ void display()
     }
 
 }
-
-
