@@ -1,5 +1,6 @@
 # Performance and Limitations
 ## Performance: Let n be the number of elements in the queue, then :
+| Operation | Compexity |
 | --- | --- |
 | Space Complexity (for n EnQueue operations) | O(n) |
 | Time Complexity of EnQueue() | O(1) |
