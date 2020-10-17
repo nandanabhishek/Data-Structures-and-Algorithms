@@ -9,6 +9,7 @@
 | Time Complexity of IsFullQueue() | O(1) |
 | Time Complexity of QueueSize() | O(1) |
 | Time Complexity of DeleteQueue() | O(1) |
+| Time Complexity of printing the Queue | O(n) |
 
 
 
