@@ -5,10 +5,6 @@
 | Space Complexity (for n EnQueue operations) | O(n) |
 | Time Complexity of EnQueue() | O(1) |
 | Time Complexity of DeQueue() | O(1) |
-| Time Complexity of IsEmptyQueue() | O(1) |
-| Time Complexity of IsFullQueue() | O(1) |
-| Time Complexity of QueueSize() | O(1) |
-| Time Complexity of DeleteQueue() | O(1) |
 | Time Complexity of printing the Queue | O(n) |
 
 ### Limitations: The maximum size of the queue must be defined as prior and cannot be changed. Trying to EnQueue a new element into a full queue causes an implementation-specific exception.
