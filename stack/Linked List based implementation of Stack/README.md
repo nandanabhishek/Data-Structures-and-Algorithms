@@ -1,4 +1,4 @@
-# Performance & Limitations
+# Performance 
 ### Performance
 Let n be the number of elements in the stack. The complexities for operations with this
 representation can be given as:
