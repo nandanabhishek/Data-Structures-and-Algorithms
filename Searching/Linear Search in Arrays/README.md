@@ -1,2 +1,4 @@
-## Time Complexity- O(n)
-## Space complexity- O(1)
+# Linear Search
+
+### Time Complexity- O(n)
+### Space complexity- O(1)
