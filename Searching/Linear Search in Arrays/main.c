@@ -1,5 +1,5 @@
 // program to search an element in an array
-// using the linear search technique.
+// using the linear search technique.(used for Unsorted Arrays)
 
 #include <stdio.h>
 #include <stdlib.h>
