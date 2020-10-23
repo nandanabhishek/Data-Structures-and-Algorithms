@@ -1,3 +1,7 @@
-# Complexity of Bubble Sort
-### Time Complexity of Bubble Sort- 
-    O(n^2)
+# Performance
+    Worst case complexity : O(n^2)
+    Best case complexity (Improved version) : O(n)
+    Average case complexity (Basic version) : O(n^2)
+    Worst case space complexity : O(1) auxiliary
+
+
