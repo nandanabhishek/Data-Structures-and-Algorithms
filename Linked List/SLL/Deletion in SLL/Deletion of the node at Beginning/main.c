@@ -15,7 +15,7 @@ struct node *delete_Beg(struct node *head){
 
     if(head == NULL){
         printf("SLLis empty!");
-        return;
+        return head;
     }
     else{
         head=head->next;
