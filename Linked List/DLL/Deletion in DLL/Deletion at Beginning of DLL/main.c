@@ -16,11 +16,18 @@ struct node *delete_beg(struct node *head)
 
     if(head == NULL) {
         printf("SLL is empty!(UNDERFLOW)");
-        exit(0);
+        return head;
+    }
+    else if(ptr->next == NULL) {
+        ptr=NULL;
+        head=ptr;
+        free(ptr);
+        return head;     
     }
     else {
-        head = head -> next;
-        head -> prev = NULL;
+        ptr = ptr -> next;
+        ptr -> prev = NULL;
+        head=ptr;
         free(ptr);
         return head;
     }
