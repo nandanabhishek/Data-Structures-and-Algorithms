@@ -8,41 +8,20 @@ struct node{
 };
 
 
-// function to insert element after the given value
-struct node *insertAfter(struct node *head, int val, int ele)
+// function to insert after a given value in SLL
+struct node *insert_after(struct node *head, int val, int ele)
 {
-    struct node *ptr=head;
-    struct node *newNode= (struct node *)malloc(sizeof(struct node));
-
-    newNode->data=ele;
-
-    if(ptr->data == val && ptr->next == NULL)
-    {
-        ptr->next=newNode;
-        newNode->next=NULL;
-        head=ptr;
-        return head;
+    struct node *newNode, *ptr, *temp;
+    newNode = (struct node *)malloc(sizeof(struct node));
+    ptr = head;
+    temp = ptr;
+    newNode -> data = ele;
+    while(temp -> data != val) {
+        temp = ptr;
+        ptr = ptr -> next;
     }
-    else if {
-        while (ptr->next != NULL) {
-            if (ptr->data == val)
-                break;
-            ptr = ptr->next;
-        }
-        newNode->next=ptr->next;
-        ptr->next=newNode;
-        return head;
-    }
-    else {
-        while (ptr != NULL) {
-            if (ptr->data == val)
-                break;
-            ptr=ptr->next;
-        }
-        newNode->next=ptr->next;
-        ptr->next=newNode;
-        return head;
-
-    }
+    temp -> next=newNode;
+    newNode -> next = ptr;
+    return head;
 
 }
