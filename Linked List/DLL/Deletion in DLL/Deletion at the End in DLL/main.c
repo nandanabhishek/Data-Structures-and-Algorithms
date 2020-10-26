@@ -17,7 +17,14 @@ struct node *delete_End(struct node *head) {
 
     if(head == NULL) {
         printf("SLL is empty!(Underflow!!)");
-        exit(0);
+        return head;
+    }
+    else if(ptr->next == NULL) {
+        ptr=NULL;
+        head=ptr;
+        free(ptr);
+        return head;
+
     }
     else {
         while(ptr->next != NULL){
