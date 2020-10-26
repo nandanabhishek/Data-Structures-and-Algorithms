@@ -11,14 +11,16 @@ struct node{
 // function to delete element from the end of SLL
 struct node *delete_End(struct node *head) {
     struct node *ptr, *temp;
-    ptr=(struct node *)malloc(sizeof(struct node));
-    temp=(struct node *)malloc(sizeof(struct node));
     ptr=head;
     temp=head;
 
     if(head == NULL){
         printf("SLL is empty!");
-        return;
+        return head;
+    }
+    else if(head->next == NULL) {
+        head = NULL;
+        return head;
     }
     else{
         while(ptr->next != NULL){
