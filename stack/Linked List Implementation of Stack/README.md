@@ -10,9 +10,6 @@
 | Time Complexity of Peek() | O(1) |
 | Time Complexity of printing the Stack | O(n) |
 
-### Limitations
-        The maximum size of the stack must first be defined and it cannot be changed. 
-        Trying to push anew element into a full stack causes an implementation-specific exception.
 
         
 
