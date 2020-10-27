@@ -5,9 +5,9 @@
 | Operation | Complexity |
 | --- | --- |
 | Space Complexity (for n push operations) | O(n) |
-| Time Complexity of Push() | O(1) |
-| Time Complexity of Pop() | O(1) |
-| Time Complexity of Peek() | O(1) |
+| Time Complexity of Push Operation | O(1) |
+| Time Complexity of Pop Operation | O(1) |
+| Time Complexity of Peek Operation | O(1) |
 | Time Complexity of printing the Stack | O(n) |
 
 
