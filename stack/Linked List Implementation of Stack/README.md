@@ -9,6 +9,7 @@
 | Time Complexity of Pop Operation | O(1) |
 | Time Complexity of Peek Operation | O(1) |
 | Time Complexity of printing the Stack | O(n) |
+| Time Complexity of Deleting complete Stack  | O(n) |
 
 
         
