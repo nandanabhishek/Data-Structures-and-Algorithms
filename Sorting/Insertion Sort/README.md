@@ -1,9 +1,9 @@
 # Performance
 |  |  |
 | :---: | :---: |
-| Worst case complexity | O(n^2) |
-| Best case complexity | O(n^2)|
-| Average case complexity | O(n^2) |
-| Worst case space complexity | O(1) auxiliary |
+| Worst case complexity | Θ(n^2) |
+| Best case complexity | Θ(n) |
+| Average case complexity | Θ(n^2) |
+| Worst case space complexity | O(n^2) total, O(1) auxiliary |
 
 
