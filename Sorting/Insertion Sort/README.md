@@ -1,5 +1,5 @@
 # Performance
-| Complexity Analysis |
+| Complexity Analysis | |
 | :---: | :---: |
 | Worst case complexity | O(n^2) |
 | Best case complexity | O(n^2)|
