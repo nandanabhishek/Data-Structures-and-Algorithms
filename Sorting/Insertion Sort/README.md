@@ -1,5 +1,5 @@
 # Performance
-|----|----|
+| --- | --- |
 | Worst case complexity | O(n^2) |
 | Best case complexity | O(n^2)|
 | Average case complexity | O(n^2) |
