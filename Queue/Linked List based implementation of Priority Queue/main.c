@@ -55,6 +55,7 @@ int main()
 
 
 // function to insert element in priority Queue
+// element can be inserted at any priority in Priority Queue!!
 struct node *insert(struct node *start)
 {
     int val, pri;
@@ -133,7 +134,7 @@ void display(struct node *start)
 }
 
 
-// function to delete entire SLL
+// function to delete entire SLL/ Priority Queue
 struct node *deleteSLL(struct node *head) {
     struct node *ptr, *temp;
     temp = head;
