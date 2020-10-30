@@ -2,12 +2,14 @@
 
 A linked-list is a sequential list of nodes that hold data which point to other nodes also containing data.
 
+
 ### Pros and Cons
 | | Pros | Cons |
 | --- | --- | --- |
 | Singly Linked List | - Uses Less Memory | Can't easily access previous elements |
 | | - Simpler Implementation | |
 | Doubly Linked List | - Can be Traversed backwards | Takes 2x memory |
+
 
 ### Complexity
 | | Singly Linked List | Doubly Linked List |
