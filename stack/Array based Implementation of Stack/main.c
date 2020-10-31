@@ -102,7 +102,8 @@ int main() {
                 break;
         }
     } while (option != 5);
-
+    
+    free(stack);
     return 0;
 }
 
