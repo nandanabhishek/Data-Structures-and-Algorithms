@@ -28,19 +28,4 @@ There are only two things on which everything in Computer Science depends
 - ```Time Complexity : The time complexity of an algorithm is the amount of computer time it needs to run to completion. ``` 
 - ```Space Complexity : The space complexity of an algorithm is the amount of memory it needs to run to completion. ``` 
 
-    ### Big-O Notation
-    It gives an upper bound of the complexity in the worst case. 
-    
-        - Constant Time : O(1)
-        - Logarithmic Time : O(log(n))
-        - Linear Time : O(n)
-        - Linearithmic TIme : O(nlog(n))
-        - Quadric Time : O(n^2)
-        - Cubic Time : O(n^3)
-        - Exponential : O(b^n) , b > 1
-        - Factorial TIme : O(n!)
-        
-    Big-O Properties
-    
-        - O(n + c) = O(n)
-        - O(cn) = O(n)
+   
