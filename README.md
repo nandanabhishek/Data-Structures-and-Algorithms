@@ -1,5 +1,5 @@
 # Data Structures
-![Data-Structures-and-Algorithms](https://github.com/nandanabhishek/Data-Structure/images/ds.png)
+![Data-Structures-and-Algorithms](https://github.com/nandanabhishek/Data-Structure/blob/main/images/ds.png)
 
 #### *A data structure is a way of organizing data so that it can be used effectively.*
 
