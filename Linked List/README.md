@@ -1,4 +1,5 @@
 # Linked List
+![Linked-Lists](https://github.com/nandanabhishek/Data-Structure/blob/main/Linked%20List/sll.jpg)
 
 A linked-list is a sequential list of nodes that hold data which point to other nodes also containing data.
 
