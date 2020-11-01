@@ -11,8 +11,7 @@
 - [Tree](https://github.com/ramanaditya/data-structure-and-algorithms/tree/master/DataStructures/tree)
 
 ## Abstract Data Type
-An Abstract Data Type is an abstraction of Data Structures which provides only the interface to which a data structure must adhere to.
-The interface doesn't give any specific details about how something should be implemented or in what programming language. 
+
 
 | Abstraction (ADT) | Implementation (DS) |
 | --- | --- |
