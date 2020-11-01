@@ -1,31 +1,17 @@
 # Data Structures
-![Data-Structures-and-Algorithms](https://github.com/nandanabhishek/Data-Structure/blob/main/images/ds.png)
+![Data-Structures-and-Algorithms](https://github.com/nandanabhishek/Data-Structure/blob/main/images/an.png)
 
 #### *A data structure is a way of organizing data so that it can be used effectively.*
 
 ## Contents
 
-- [Abstract Data Type](https://github.com/ramanaditya/data-structure-and-algorithms/tree/master/DataStructures#abstract-data-type)
-- [Computational Complexity Analysis](https://github.com/ramanaditya/data-structure-and-algorithms/tree/master/DataStructures#computational-complexity-analysis)
-- [Array](https://github.com/ramanaditya/data-structure-and-algorithms/tree/master/DataStructures/Array)
-- [Tree](https://github.com/ramanaditya/data-structure-and-algorithms/tree/master/DataStructures/tree)
+- [Arrays](https://github.com/nandanabhishek/Data-Structure/tree/main/Array)
+- [Linked-Lists](https://github.com/nandanabhishek/Data-Structure/tree/main/Linked%20List)
+- [Stack](https://github.com/nandanabhishek/Data-Structure/tree/main/stack)
+- [Queue](https://github.com/nandanabhishek/Data-Structure/tree/main/Queue)
+- [Searching](https://github.com/nandanabhishek/Data-Structure/tree/main/Searching)
+- [Sorting](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting)
 
-## Abstract Data Type
 
-
-| Abstraction (ADT) | Implementation (DS) |
-| --- | --- |
-| List | - Dynamic Array |
-| | - Linked List |
-| Queue | - Linked list Based Queue |
-| | - Array Based Queue |
-| | - Stack Based Queue |
-| Map | - Tree Map |
-| | - Hash Map / Hash Table |
-
-## Computational Complexity Analysis
-There are only two things on which everything in Computer Science depends
-- ```Time Complexity : The time complexity of an algorithm is the amount of computer time it needs to run to completion. ``` 
-- ```Space Complexity : The space complexity of an algorithm is the amount of memory it needs to run to completion. ``` 
 
    
