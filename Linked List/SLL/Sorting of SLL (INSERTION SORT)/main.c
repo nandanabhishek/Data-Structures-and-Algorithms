@@ -16,20 +16,27 @@ struct node *sort_list(struct node *head)
     struct node *ptr1, *ptr2;
     int temp;
     ptr1 = head;
-    while(ptr1->next != NULL)
-    {
-        ptr2 = ptr1 -> next;
-        while(ptr2 != NULL)
-        {
-            if(ptr1->data > ptr2->data)
-            {
-                temp = ptr1 -> data;
-                ptr1 -> data = ptr2 -> data;
-                ptr2 -> data = temp;
-            }
-            ptr2 = ptr2 -> next;
-        }
-        ptr1 = ptr1 -> next;
+    
+    if(head == NULL) {
+        return head;
     }
-    return head; // Had to be added
+    else {
+        while(ptr1->next != NULL)
+        {
+            ptr2 = ptr1 -> next;
+            while(ptr2 != NULL)
+            {
+                if(ptr1->data > ptr2->data)
+                {
+                    temp = ptr1 -> data;
+                    ptr1 -> data = ptr2 -> data;
+                    ptr2 -> data = temp;
+                }
+                ptr2 = ptr2 -> next;
+            }
+            ptr1 = ptr1 -> next;
+        }
+        return head; // Had to be added
+    }
+    
 }
