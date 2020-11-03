@@ -1,6 +1,10 @@
 # Sorting
 *Sorting refers to the operation of arranging data in some given order, such as increasing or decreasing with numerical data, or alphabetically with character data.*
 
+# Types of sorting –
+- Internal sorting - Sorts the data resides in the computer’s memory.
+- External Sorting - Deals with sorting the data stored in files. External sorting is applied when there is large amount of data that cannot be stored in memory. Example - Multiway merging
+
 # Complexity Analysis
 | S No. | Algorithm | Worst Time | Average Time | Best Time | Memory | Stability |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
