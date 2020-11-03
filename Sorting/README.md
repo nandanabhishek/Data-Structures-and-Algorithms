@@ -6,13 +6,13 @@
 - External Sorting - Deals with sorting the data stored in files. External sorting is applied when there is large amount of data that cannot be stored in memory. Example-          Multiway merging
 
 ## Internal Sorting Methods –
-- Selection Sort
-- Bubble Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
-- Heap Sort
-- Bucket Sort....
+- [Selection Sort](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting/Selection%20Sort)
+- [Bubble Sort](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting/Bubble%20Sort)
+- [Insertion Sort](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting/Insertion%20Sort)
+- [Merge Sort]
+- [Quick Sort]
+- [Heap Sort]
+- [Bucket Sort]
 
 ## SORTING-Terminology
 
