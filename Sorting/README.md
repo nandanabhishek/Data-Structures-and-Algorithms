@@ -5,6 +5,21 @@
 - Internal sorting - Sorts the data resides in the computer’s memory.
 - External Sorting - Deals with sorting the data stored in files. External sorting is applied when there is large amount of data that cannot be stored in memory. Example-          Multiway merging
 
+## Internal Sorting Methods –
+- Selection Sort
+- Bubble Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
+- Bucket Sort....
+
+## SORTING-Terminology
+
+- In-place sorting - *Any sorting algorithm is called In-place sorting algorithm if it uses constant space for sorting the elements. It sorts the elements by changing the order of the elements within the given list.*
+
+- Stable sorting -*Any sorting algorithm is called stable sorting algorithm if two elements with equal keys appear in the same order in sorted output as they appear in the input array to be sorted.*
+
 # Complexity Analysis
 | S No. | Algorithm | Worst Time | Average Time | Best Time | Memory | Stability |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -17,6 +32,3 @@
 | 7. | Heap Sort  | O(n * log n) | O(n * log n) |  | | |
 | 8. | Shell Sort  | O(n * (log n)^2 ) | |  | | |
 
-> **Stable** : Relative position of equal elements after sorting remains same.
->
-> **In-place Sorting** : Sorting Input elements without having backup, thus unsorted form is lost.
