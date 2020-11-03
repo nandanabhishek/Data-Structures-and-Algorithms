@@ -1,5 +1,7 @@
 # Sorting
+*Sorting refers to the operation of arranging data in some given order, such as increasing or decreasing with numerical data, or alphabetically with character data.*
 
+# Complexity Analysis
 | S No. | Algorithm | Worst Time | Average Time | Best Time | Memory | Stability |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
 | 1. | Bubble Sort | O(n^2) | O(n^2) | O(n) | O(1) | Stable |
