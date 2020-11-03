@@ -18,7 +18,7 @@
 
 - In-place sorting - *Any sorting algorithm is called In-place sorting algorithm if it uses constant space for sorting the elements. It sorts the elements by changing the order of the elements within the given list.*
 
-- Stable sorting -*Any sorting algorithm is called stable sorting algorithm if two elements with equal keys appear in the same order in sorted output as they appear in the input array to be sorted.*
+- Stable sorting -*Any sorting algorithm is called stable sorting algorithm if two elements with equal keys appear in the same order in sorted output as they appear in the input array to be sorted.* 
 
 # Complexity Analysis
 | S No. | Algorithm | Worst Time | Average Time | Best Time | Memory | Stability |
