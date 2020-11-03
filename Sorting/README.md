@@ -1,4 +1,5 @@
 # Sorting
+![Sorting](https://github.com/nandanabhishek/Data-Structure/blob/main/Sorting/sorting.jpg)
 *Sorting refers to the operation of arranging data in some given order, such as increasing or decreasing with numerical data, or alphabetically with character data.*
 
 
