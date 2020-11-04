@@ -10,8 +10,6 @@ struct BSTNode {
     struct BSTNode *right;
 };
 
-struct BSTNode *root=NULL;
-
 
 
 // function for Finding element in BST
