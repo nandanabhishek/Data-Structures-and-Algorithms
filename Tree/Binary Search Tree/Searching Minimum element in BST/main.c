@@ -10,8 +10,6 @@ struct BSTNode {
     struct BSTNode *right;
 };
 
-struct BSTNode *root=NULL;
-
 
 
 
