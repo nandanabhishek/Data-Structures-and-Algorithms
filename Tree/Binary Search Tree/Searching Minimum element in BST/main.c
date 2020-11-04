@@ -14,6 +14,7 @@ struct BSTNode *root=NULL;
 
 
 
+
 // function for finding the minimum element in a Binary Search Tree
 // Recursive Approach
 struct BSTNode *find_Min(struct BSTNode *root)
