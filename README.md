@@ -11,6 +11,7 @@
 - [Queue](https://github.com/nandanabhishek/Data-Structure/tree/main/Queue)
 - [Searching](https://github.com/nandanabhishek/Data-Structure/tree/main/Searching)
 - [Sorting](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting)
+- [Tree](https://github.com/nandanabhishek/Data-Structure/tree/main/Tree)
 
 
 
