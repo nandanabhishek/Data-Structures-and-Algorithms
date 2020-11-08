@@ -1,5 +1,6 @@
 // program to sort an array using Insertion Sort Algorithm.
 #include <stdio.h>
+#include <stdlib.h>
 
 #define MAXSIZE 10
 
@@ -16,7 +17,8 @@ int main()
         scanf("%d", &arr[i]);
     }
     insertion_sort(arr, size);
-
+    
+    free(arr);
     return 0;
 
 }
@@ -41,6 +43,6 @@ void insertion_sort(int arr[], int size)
     printf("\n The Sorted Array is: \n");
     for(i=0; i<size; i++)
         printf("  %d\t", arr[i]);
-
+    
 
 }
