@@ -3,7 +3,7 @@
 
 #define MAXSIZE 10
 
-void insertion_sort(int arr[], int n);
+void insertion_sort(int arr[], int size);
 
 int main()
 {
