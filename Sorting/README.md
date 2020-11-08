@@ -10,10 +10,10 @@
 
 
 ## Internal Sorting Methods –
-- [Selection Sort](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting/Selection%20Sort)
-- [Bubble Sort](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting/Bubble%20Sort)
-- [Insertion Sort](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting/Insertion%20Sort)
-- [Merge Sort]
+- [Selection Sort](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting/Selection%20Sort/main.c)
+- [Bubble Sort](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting/Bubble%20Sort/main.c)
+- [Insertion Sort](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting/Insertion%20Sort/main.c)
+- [Merge Sort](https://github.com/nandanabhishek/Data-Structure/blob/main/Sorting/Merge%20Sort/main.c)
 - [Quick Sort]
 - [Heap Sort]
 - [Bucket Sort]
