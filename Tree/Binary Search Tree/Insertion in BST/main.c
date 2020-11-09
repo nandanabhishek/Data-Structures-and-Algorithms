@@ -16,6 +16,7 @@ struct BSTNode {
 struct BSTNode *insert(struct BSTNode *root, int data)
 {
     if ( root == NULL) {
+        root = (struct BSTNode *)malloc(sizeof(struct BSTNode)); // memory allocation for creating the newNode to store the new element
         root->info = data;
         root->left = root->right = NULL;
     }
