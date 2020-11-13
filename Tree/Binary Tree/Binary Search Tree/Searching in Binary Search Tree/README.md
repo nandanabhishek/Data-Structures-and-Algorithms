@@ -1,12 +1,12 @@
 # Complexity Analysis
-<hr>
 
-## Time Complexity
+
+## _Time Complexity -_
 
 - Average Case : O(log n) 
-- Worst Case (when the tree is skewed one (All the nodes are in one side)) : O(n) 
+- Worst Case _(when the tree is skewed one (All the nodes are in one side))_ : O(n) 
 
-## Space Complexity
+## _Space Complexity -_
 - O(n) , _for Recursive Approach_
 
 
