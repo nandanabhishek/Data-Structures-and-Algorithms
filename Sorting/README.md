@@ -27,7 +27,7 @@
 
 
 # Complexity Analysis
-| S No. | Algorithm | Worst Time | Average Time | Best Time | Memory | Stability |
+| S No. | Algorithm | Worst Time | Average Time | Best Time | Space Complexity (Worst) | Stability |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
 | 1. | Bubble Sort | O(n^2) | O(n^2) | O(n) | O(1) | Stable |
 | 2. | Selection Sort | O(n^2) | O(n^2) | O(n^2) | O(1) | Unstable |
