@@ -5,7 +5,7 @@
 
 
 # Types of sorting 
-- **Internal sorting** - Sorts the data resides in the computer’s memory.
+- **Internal sorting** - Sorts the data resides in the computer’s memory. Example - Selection sort, Bubble sort, Insertion sort, Merge sort, Quick sort, Heap sort, Bucker Sort, etc 
 - **External Sorting** - Deals with sorting the data stored in files. External sorting is applied when there is large amount of data that cannot be stored in memory. Example-          Multiway merging
 
 
