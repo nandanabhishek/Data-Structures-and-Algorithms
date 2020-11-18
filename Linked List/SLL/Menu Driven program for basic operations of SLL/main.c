@@ -179,6 +179,24 @@ struct node *delete_End(struct node *head) {
    and a key, deletes the first occurrence of key in linked list */
 struct node *delete_node(struct node *head, int val)
 {
+    struct node *curr = head;
+    struct node *prev = NULL;
+    if(curr->data == val) {
+        head = curr->next;
+        return head;
+    }
+    while(curr != NULL)
+    {
+        prev = curr;
+        curr = curr->next;
+        if(curr->data == val)
+            break;
+    }
+    prev->next = curr->next;
+    free(curr);
+    free(prev);
+
+    return head;
 
 
 }
@@ -191,10 +209,10 @@ struct node *deleteSLL(struct node *head) {
 
     while(temp != NULL){
         ptr=temp->next;
-        free(temp);
         temp=ptr;
     }
     head = temp;
+    free(temp);
     return head;
 }
 
