@@ -37,7 +37,7 @@
 | 3. | Insertion Sort | O(n^2) | O(n^2) | O(n) | O(1) | Yes | Yes |
 | 4. | Merge Sort | O(n * log n ) | O(n * log n ) | O(n * log n ) | O(n) | | Yes |
 | 5. | Quick Sort | O(n^2) | O(n * log n ) |  O(n * log n )   | O(n) || No |
-| 6. | Bucket Sort  | O(n^2 * k) ) | O(n * k) |  | | | |
+| 6. | Bucket Sort  | O(n^2 * k) ) | O(n * k) |  | O(n * k) | | |
 | 7. | Heap Sort  | O(n * log n) | O(n * log n) | O(n * log n) | O(1) || |
 | 8. | Shell Sort  | O(n * (log n)^2 ) | |  | | ||
 
