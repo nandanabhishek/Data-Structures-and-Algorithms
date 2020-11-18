@@ -1,4 +1,4 @@
-# Linear Search
+# Binary Search
 
 ### Time Complexity :-
 - Worst Case : O( log n )
