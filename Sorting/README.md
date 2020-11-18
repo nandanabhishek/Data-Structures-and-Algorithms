@@ -31,9 +31,9 @@
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :--: |
 | 1. | Bubble Sort | O(n^2) | O(n^2) | O(n) | O(1) | Yes | Yes |
 | 2. | Selection Sort | O(n^2) | O(n^2) | O(n^2) | O(1) | Yes | Yes |
-| 3. | Insertion Sort | O(n^2) | O(n^2) | O(n) | O(1) || Stable |
-| 4. | Merge Sort | O(n * log n ) | O(n * log n ) | O(n * log n ) | O(n) | | Stable |
-| 5. | Quick Sort | O(n^2) | O(n * log n ) |  O(n * log n )   | O(n) || Unstable |
+| 3. | Insertion Sort | O(n^2) | O(n^2) | O(n) | O(1) || Yes |
+| 4. | Merge Sort | O(n * log n ) | O(n * log n ) | O(n * log n ) | O(n) | | Yes |
+| 5. | Quick Sort | O(n^2) | O(n * log n ) |  O(n * log n )   | O(n) || No |
 | 6. | Bucket Sort  | O(n^2 * k) ) | O(n * k) |  | | | |
 | 7. | Heap Sort  | O(n * log n) | O(n * log n) | O(n * log n) | O(1) || |
 | 8. | Shell Sort  | O(n * (log n)^2 ) | |  | | ||
