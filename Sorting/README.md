@@ -17,7 +17,7 @@
 - [Bubble Sort](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting/Bubble%20Sort/main.c)
 - [Insertion Sort](https://github.com/nandanabhishek/Data-Structure/tree/main/Sorting/Insertion%20Sort/main.c)
 - [Merge Sort](https://github.com/nandanabhishek/Data-Structure/blob/main/Sorting/Merge%20Sort/main.c)
-- [Quick Sort]
+- [Quick Sort](https://github.com/nandanabhishek/Data-Structures-and-Algorithms/blob/main/Sorting/Quick%20Sort/main.c)
 - [Heap Sort]
 - [Bucket Sort]
 
