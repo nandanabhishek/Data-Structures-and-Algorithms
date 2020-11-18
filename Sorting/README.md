@@ -27,8 +27,8 @@
 
 
 # Complexity Analysis
-| S No. | Algorithm | Worst Time | Average Time | Best Time | Space Complexity (Worst) | In-place Sorting | Stable Sorting |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :--: |
+| S No. | Algorithm | Worst Time | Average Time | Best Time | Space Complexity(Worst) |In-place Sorting|Stable Sorting|
+| :---: | :--- | :---: | :---: | :---: | :---: | :--- | :-- |
 | 1. | Bubble Sort | O(n^2) | O(n^2) | O(n) | O(1) | Yes | Yes |
 | 2. | Selection Sort | O(n^2) | O(n^2) | O(n^2) | O(1) | Yes | Yes |
 | 3. | Insertion Sort | O(n^2) | O(n^2) | O(n) | O(1) | Yes | Yes |
