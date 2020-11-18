@@ -6,4 +6,4 @@
 - Best case : O(1), when element is found at Index 0
 
 ### Space complexity :- 
--O(1)
+- O(1)
