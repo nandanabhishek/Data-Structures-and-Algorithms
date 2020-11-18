@@ -1,4 +1,4 @@
-# Time Complexity
+# Time Complexity and Space Complexity
 | S No. | Operation | Worst Time | Average Time | Best Time | Memory |
 | :--: | :-- | :--: | :--: | :--: | :--: |
 | 1. | Preorder Traversal (Recursive) | O(n) |  | | O(n) |
