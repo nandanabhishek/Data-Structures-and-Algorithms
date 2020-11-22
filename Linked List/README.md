@@ -12,7 +12,9 @@ A linked-list is a sequential list of nodes that hold data which point to other 
 | Doubly Linked List | - Can be Traversed backwards | Takes 2x memory |
 
 
-### Complexity
+### Complexity Analysis
+
+- **Time Complexity :-**
 | | Singly Linked List | Doubly Linked List |
 | --- | :---: | :---: |
 | Search | O(n) | O(n) |
