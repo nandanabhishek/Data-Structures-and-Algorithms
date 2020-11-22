@@ -1,3 +1,3 @@
 # Complexity Analysis
 
-- **Time Complexity**- O(n)
+- **Time Complexity**- **_O(n)_**
