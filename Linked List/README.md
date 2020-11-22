@@ -15,6 +15,7 @@ A linked-list is a sequential list of nodes that hold data which point to other 
 ### Complexity Analysis
 
 - **Time Complexity :-**
+
 | | Singly Linked List | Doubly Linked List |
 | --- | :---: | :---: |
 | Search | O(n) | O(n) |
