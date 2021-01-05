@@ -1,3 +1,6 @@
+// Iterative-Approach
+
+
 #include <stdio.h>
 
 void getMax(int *, int);
