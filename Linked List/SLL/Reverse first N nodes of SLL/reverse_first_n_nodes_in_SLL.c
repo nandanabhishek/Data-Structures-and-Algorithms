@@ -4,7 +4,7 @@
 
 /* Reverse the first N nodes in the list,
    means the n th node should be the first node and
-   f node should be the nth node
+   first node should be the nth node
    Dont change the data in the nodes, only move the nodes to respective positions
 */
 
