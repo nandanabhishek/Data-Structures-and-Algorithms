@@ -12,3 +12,7 @@ class Solution:
                         table[i+num] = True
                         
         return table[targetSum]
+    
+    
+    # time complexity : O(m*n), m = targetSum, n = len(arr)
+    # space complexity : O(m), m = targetSum
