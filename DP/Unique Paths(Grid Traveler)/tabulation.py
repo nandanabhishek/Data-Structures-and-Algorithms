@@ -1,22 +1,24 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         
-        count = [[0 for x in range(n)] for y in range(m)]
+        # for tabulation
+        table = [[0 for x in range(n+1)] for y in range(m+1)]
+        
+        # table[i][0] and table[0][j] values are 0,
+        # bcz theres not any way of travelling in empty grid
     
-        # Count of paths to reach any 
-        # cell in first column is 1
-        for i in range(m):
-            count[i][0] = 1;
+        # from our base case, we can say that
+        # there's one way to travel from [1,1] to [1,1]
+        table[1][1] = 1
 
-        # Count of paths to reach any 
-        # cell in first column is 1
-        for j in range(n):
-            count[0][j] = 1;
 
-        # Calculate count of paths for other
-        # cells in bottom-up 
-        # manner using the recursive solution
-        for i in range(1, m):
-            for j in range(1, n):             
-                count[i][j] = count[i-1][j] + count[i][j-1]
-        return count[m-1][n-1]
+        # Calculate count of paths for other cells in 
+        # bottom-up manner using the recursive solution
+        for i in range(1, m+1):
+            for j in range(1, n+1):
+                if i+1 <= m:
+                    table[i+1][j] += table[i][j] 
+                if j+1 <= n:
+                    table[i][j+1] += table[i][j]
+                    
+        return table[m][n]
